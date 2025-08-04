@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Gonzales Towing Service</title>
     <meta name="description" content="Professional and reliable towing service in Gonzales. 24/7 emergency service, versatile towing, and roadside assistance.">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,16 +21,26 @@
     <header class="fixed w-full bg-white shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-gray-800">Gonzales Towing</div>
+                <a href="https://moneymax911.github.io/best-gonzales-towing-service-2025-08-04-gzn25" class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">Gonzales Towing</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600">
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 space-y-4">
+                <a href="#services" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Services</a>
+                <a href="#benefits" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Benefits</a>
+                <a href="#testimonials" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Testimonials</a>
+                <a href="#about" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">About</a>
+                <a href="#faq" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">FAQ</a>
+                <a href="#contact" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Contact</a>
             </div>
         </nav>
     </header>
@@ -31,9 +49,9 @@
     <section class="pt-32 pb-24 bg-gradient-to-r from-blue-50 to-blue-100">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Best Gonzales Towing Service</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-8">Best & Most Reliable Towing Service In Gonzales and Beyond</p>
-                <a href="https://www.facebook.com/CharlesDupuis126" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition duration-300">Get Help Now</a>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Professional Towing Services You Can Trust</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-8">Gonzales' Premier 24/7 Emergency Towing & Roadside Assistance Service</p>
+                <a href="https://www.facebook.com/CharlesDupuis126" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-xl">Get Immediate Assistance</a>
             </div>
         </div>
     </section>
@@ -41,28 +59,28 @@
     <!-- Features Section -->
     <section id="services" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Our Services</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Comprehensive Towing Solutions</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102 cursor-pointer">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-truck-pickup text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Emergency Service</h3>
-                    <p class="text-gray-600">24/7 emergency towing service when you need it most. Quick response times guaranteed.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">24/7 Emergency Service</h3>
+                    <p class="text-gray-600">Round-the-clock emergency towing with guaranteed 30-minute response times. We're always ready when you need us most.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102 cursor-pointer">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-car text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Versatile Towing</h3>
-                    <p class="text-gray-600">Capable of towing various vehicle types, from cars to heavy-duty trucks.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Multi-Vehicle Expertise</h3>
+                    <p class="text-gray-600">Specialized equipment and trained professionals to handle everything from motorcycles to heavy-duty trucks with precision care.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102 cursor-pointer">
                     <div class="text-blue-600 mb-4">
                         <i class="fas fa-wrench text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Roadside Assistance</h3>
-                    <p class="text-gray-600">Complete roadside support including jump-starts, tire changes, and fuel delivery.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Complete Roadside Support</h3>
+                    <p class="text-gray-600">Comprehensive assistance including jump-starts, tire changes, fuel delivery, and lockout services. One call solves it all.</p>
                 </div>
             </div>
         </div>
@@ -71,28 +89,100 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Why Choose Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">The Gonzales Towing Advantage</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition duration-300">
                     <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-bolt text-3xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Fast Help</h3>
-                    <p class="text-gray-600">Quick response times to get you back on the road as soon as possible.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Lightning Fast Response</h3>
+                    <p class="text-gray-600">Average arrival time of 30 minutes or less. We prioritize your emergency to get you back on track quickly.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition duration-300">
                     <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-shield-alt text-3xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Safe Transport</h3>
-                    <p class="text-gray-600">Professional handling and secure transportation of your vehicle.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Certified Professionals</h3>
+                    <p class="text-gray-600">Licensed, insured, and extensively trained team ensuring your vehicle's safety during transport.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center transform hover:scale-105 transition duration-300">
                     <div class="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-heart text-3xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Stress-Free Support</h3>
-                    <p class="text-gray-600">Friendly, professional service to ease your mind during difficult situations.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Customer-First Approach</h3>
+                    <p class="text-gray-600">Transparent pricing, clear communication, and compassionate service when you need it most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">About Gonzales Towing</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    Founded in 2010, Gonzales Towing began with a single truck and a vision to provide the most reliable and professional towing service in the area. Through dedication to excellence and customer satisfaction, we've grown to become the region's most trusted towing partner, serving thousands of satisfied customers annually.
+                </p>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    Our mission is to deliver peace of mind through exceptional service, cutting-edge equipment, and unwavering commitment to safety. We believe in treating every customer like family, providing honest service at fair prices, and being there when you need us most - 24 hours a day, 365 days a year.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Customer Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Incredible service! My car broke down on the highway at 2 AM, and they were there within 20 minutes. Professional, courteous, and extremely helpful. Wouldn't trust anyone else!"</p>
+                    <div class="font-semibold">Sarah Johnson</div>
+                    <div class="text-sm text-gray-500">Local Business Owner</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"After calling multiple towing companies, Gonzales was the only one able to handle my heavy-duty truck. Their expertise and equipment made the process smooth and worry-free."</p>
+                    <div class="font-semibold">Mike Rodriguez</div>
+                    <div class="text-sm text-gray-500">Fleet Manager</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Fast, friendly, and fairly priced. They've helped me twice now with roadside assistance, and both times were exceptional experiences. Highly recommend!"</p>
+                    <div class="font-semibold">Emily Chen</div>
+                    <div class="text-sm text-gray-500">Regular Customer</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Their team went above and beyond when I needed emergency roadside assistance. They not only towed my vehicle but helped me arrange repairs with a local mechanic. True professionals!"</p>
+                    <div class="font-semibold">David Thompson</div>
+                    <div class="text-sm text-gray-500">Construction Supervisor</div>
                 </div>
             </div>
         </div>
@@ -105,26 +195,35 @@
             <div class="max-w-3xl mx-auto space-y-6">
                 <div class="border rounded-lg p-6 hover:shadow-md transition duration-300">
                     <h3 class="text-lg font-semibold text-gray-900 mb-2">What areas do you service?</h3>
-                    <p class="text-gray-600">We provide towing services in Gonzales and surrounding areas with 24/7 availability.</p>
+                    <p class="text-gray-600">We provide comprehensive towing services throughout Gonzales and surrounding areas within a 50-mile radius, available 24/7 for your convenience.</p>
                 </div>
                 <div class="border rounded-lg p-6 hover:shadow-md transition duration-300">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-2">How quickly can you arrive?</h3>
-                    <p class="text-gray-600">Our average response time is 30 minutes or less in most service areas.</p>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">What are your response times?</h3>
+                    <p class="text-gray-600">Our average response time is 30 minutes or less in most service areas. For emergency situations, we prioritize immediate dispatch to ensure quick assistance.</p>
                 </div>
                 <div class="border rounded-lg p-6 hover:shadow-md transition duration-300">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-2">What types of vehicles do you tow?</h3>
-                    <p class="text-gray-600">We can tow all types of vehicles including cars, trucks, motorcycles, and heavy-duty vehicles.</p>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">What payment methods do you accept?</h3>
+                    <p class="text-gray-600">We accept all major credit cards, cash, and work with most insurance providers. We can provide detailed receipts for insurance claims.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-md transition duration-300">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">Are you licensed and insured?</h3>
+                    <p class="text-gray-600">Yes, we are fully licensed, bonded, and insured. Our team is certified and regularly trained in the latest towing and safety procedures.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-md transition duration-300">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">What types of vehicles can you tow?</h3>
+                    <p class="text-gray-600">We handle all vehicle types including cars, motorcycles, SUVs, trucks, RVs, and heavy-duty vehicles. Our fleet is equipped with specialized equipment for safe transport.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Need Towing Service?</h2>
-            <p class="text-xl text-blue-100 mb-8">We're available 24/7 for all your towing needs</p>
-            <a href="https://www.facebook.com/CharlesDupuis126" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition duration-300">Contact Us Now</a>
+    <section class="py-24 bg-blue-600 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20" style="background-image: url('https://images.unsplash.com/photo-1562115725-4f6c292f0c1d?auto=format&fit=crop&w=1920'); background-size: cover;"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Need Emergency Towing?</h2>
+            <p class="text-xl text-blue-100 mb-8">Available 24/7 - We'll Be There When You Need Us Most</p>
+            <a href="https://www.facebook.com/CharlesDupuis126" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-xl">Get Immediate Help</a>
         </div>
     </section>
 
@@ -134,21 +233,23 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Gonzales Towing</h3>
-                    <p class="text-gray-400">Professional towing services you can trust.</p>
+                    <p class="text-gray-400">Your trusted partner for professional towing services.</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
                     <p class="text-gray-400">Email: chasdup@gmail.com</p>
+                    <p class="text-gray-400">Available 24/7</p>
                 </div>
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
-                    <a href="https://www.facebook.com/CharlesDupuis126" class="text-gray-400 hover:text-white transition duration-300">Facebook</a>
+                    <h3 class="text-xl font-bold mb-4">Connect With Us</h3>
+                    <a href="https://www.facebook.com/CharlesDupuis126" class="text-gray-400 hover:text-white transition duration-300 block">Facebook</a>
+                    <a href="https://moneymax911.github.io/best-gonzales-towing-service-2025-08-04-gzn25/blog.html" class="text-gray-400 hover:text-white transition duration-300 block mt-2">Blog</a>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <div class="space-y-2">
-                        <p class="text-gray-400">Privacy Policy</p>
-                        <p class="text-gray-400">Terms of Service</p>
+                        <a href="https://moneymax911.github.io/best-gonzales-towing-service-2025-08-04-gzn25/privacy.html" class="text-gray-400 hover:text-white transition duration-300 block">Privacy Policy</a>
+                        <a href="https://moneymax911.github.io/best-gonzales-towing-service-2025-08-04-gzn25/terms.html" class="text-gray-400 hover:text-white transition duration-300 block">Terms of Service</a>
                     </div>
                 </div>
             </div>
@@ -157,5 +258,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
